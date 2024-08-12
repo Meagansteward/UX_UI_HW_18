@@ -1,0 +1,134 @@
+.body {
+    background-color: #322E2E;
+}
+.parentContainer {
+    display: flex;
+    flex-direction: row;
+    background-color: #E9D8DA;
+    padding: 15px;
+    font-size: 25px;
+    color: black;
+    margin-bottom: 30px; 
+    width: auto;  
+}
+ 
+
+.mySkills {
+    color: white;
+    background-color: #322E2E;
+    font-size: 75px;
+}
+
+.myDesigns {
+    color: white;
+    background-color: #322E2E;
+    font-size: 75px;
+}
+
+
+.resume {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    width: 50%;
+    height: 50%;
+    margin-bottom: 100px;
+}
+
+.row {
+    
+    display: table;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-content: center; 
+    font-size: 50px;
+    color:black;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+.column {
+    display: table;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-content: center; 
+    font-size: 50px;
+    color:black;
+    text-align: center;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:600){
+    .parentContainer {
+        flex-direction: column; 
+    }
+}
+
+
+
+
+
+
+
+
+
+/*
+#categoryGrid {
+    background-color: #E9D8DA;
+    margin-top: 100px;
+    margin: 0px 5%;
+    display: grid;
+    grid-template-rows: 300px 300px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "case1 case2"
+
+}
+
+#case1 {
+    
+    grid-area: case1;
+    background-image: url("../images/Hopeforchildren\ home\ screen.jpg");
+    width: 450px;
+    height: 900px;
+  }
+ 
+  #case2 {
+    
+    grid-area: case2;
+    background-image: url("../images/travelmate\ home\ screen.jpg");
+    width: 450px;
+    height: 900px;
+    font-size: 100px;
+    font-display: above;
+}
+
+  .categoryGridArea {
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 30px;
+    cursor: pointer;
+    display: grid;
+    align-content: center;
+  }
+
+/* Not working with container grid * /
+.containerGrid {
+display: grid;
+grid-template-columns: 25% 25%;
+grid-template-areas: myArea myArea;
+}
+
+/* top grid option CSS* /
+.column {
+    float: center;
+    width: 50%;
+    padding: 10px;
+    height: 300px; 
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 35px;
+  } * /
+  
+ 
